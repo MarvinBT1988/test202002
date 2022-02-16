@@ -6,7 +6,10 @@ namespace TestConsola20220215
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ingresar el nombre");
+            var nombre = Console.ReadLine();
+            Console.WriteLine("Mostrar el nombre:"+ nombre);
+            Console.Read();
         }
     }
 }
